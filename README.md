@@ -1,3 +1,5 @@
+
+
 # Low Latency Transformer Inference on FPGAs for Anomaly Detection on ECGs
 
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
@@ -12,12 +14,17 @@
 ![ECG](https://img.shields.io/badge/Application-ECG%20Anomaly%20Detection-green?style=for-the-badge)
 
 
+<img width="1000" height="890" alt="Anomaly_detection_ images-Picsart-AiImageEnhancer" src="https://github.com/user-attachments/assets/0203fa87-d702-432a-b117-d10b661b2754" />
+
 ## 📌 Abstract
+
 This project demonstrates the implementation of a **Hardware-Aware Transformer Neural Network** optimized for microsecond-scale inference latency on Field Programmable Gate Arrays (FPGAs).
 
 Addressing the computational bottleneck of standard Transformers in edge computing, this work utilizes **High-Level Synthesis (HLS)** to convert a Python-based Keras model into a fully parallelized C++ hardware circuit. The architecture is designed to detect cardiac anomalies in the **ECG5000 dataset**, achieving **96.6% logic fidelity** between the floating-point software model and the 16-bit fixed-point hardware implementation.
 
 ---
+
+
 
 ## 🧠 Theoretical Background
 
@@ -79,6 +86,10 @@ $$
 **Why this fits the Jiang et al. objective:**
 - **Latency:** Multiply and Add operations are fully parallelizable  
 - **Resources:** Eliminates the need for an $N \times N$ attention matrix  
+
+---
+
+<img width="800" height="800" alt="Anomaly_detection_ images-Picsart-AiImageEnhancer" src="https://github.com/user-attachments/assets/09f7285b-f281-4e4d-95b3-a797941bc207" />
 
 ---
 
