@@ -161,7 +161,7 @@ Install the required dependencies to support legacy Keras parsing and FPGA synth
 Core Research
 - Vaswani et al. – Attention Is All You Need, NeurIPS 2017.
 - Jiang et al. – Low Latency Transformer Inference on FPGAs for
-Physics Applications with hls4ml(2021).
+Physics Applications with hls4ml(2024).
 - Hu et al. – Squeeze-and-Excitation Networks, CVPR 2018.
 
 ## Tools
