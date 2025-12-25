@@ -167,3 +167,27 @@ Physics Applications with hls4ml(2024).
 ## Tools
 ``` hls4ml: https://fastmachinelearning.org/hls4ml ``` .
 - Xilinx Vivado HLS .
+
+
+
+---
+
+## 👨‍💻 Author  
+
+**Nitesh Kumar**  
+📧 niteshk.ug23.ee@nitp.ac.in  
+🌐 [LinkedIn Profile](https://www.linkedin.com/in/nitesh-kumar-68a698275)  
+
+
+
+
+  
+Copyright (c) 2025 Nitesh Kumar
+
+
+
+
+
+
+
+---
