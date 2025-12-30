@@ -16,7 +16,7 @@
 
 <img width="1000" height="890" alt="Anomaly_detection_ images-Picsart-AiImageEnhancer" src="https://github.com/user-attachments/assets/0203fa87-d702-432a-b117-d10b661b2754" />
 
-## 📌 Abstract
+## Abstract
 
 This project demonstrates the implementation of a **Hardware-Aware Transformer Neural Network** optimized for microsecond-scale inference latency on Field Programmable Gate Arrays (FPGAs).
 
@@ -26,7 +26,7 @@ Addressing the computational bottleneck of standard Transformers in edge computi
 
 
 
-## 🧠 Theoretical Background
+## Theoretical Background
 
 ### 1. The Transformer Legacy (Vaswani et al.)
 The architecture draws inspiration from the seminal work *"Attention Is All You Need"* by Vaswani et al. (2017). The core innovation of the original Transformer was the **Self-Attention Mechanism**, which allows the model to weigh the importance of different time-steps in a sequence dynamically.
@@ -52,7 +52,7 @@ While powerful, the $O(N^2)$ complexity of standard attention is a bottleneck fo
 
 ---
 
-## ⚙️ Implemented Architecture: Hardware-Efficient Attention
+## Implemented Architecture: Hardware-Efficient Attention
 
 To adhere to the low-latency principles proposed by Jiang et al., this project implements a **Channel-Wise Attention (Squeeze-and-Excitation)** mechanism. This retains the Transformer's ability to "attend" to specific features but replaces heavy matrix multiplication with efficient element-wise operations suitable for FPGA DSP slices.
 
@@ -93,7 +93,7 @@ $$
 
 ---
 
-## 🛠️ FPGA Implementation Details
+## FPGA Implementation Details
 
 The transition from software to hardware is handled by **hls4ml** using the following configuration:
 
@@ -111,14 +111,14 @@ To achieve low-latency inference, the **Latency Strategy** is applied to all lay
 config['LayerName'][layer]['Strategy'] = 'Latency'
 config['LayerName'][layer]['ReuseFactor'] = 1 
 
-## ⚙️ Parallelization Strategy
+## Parallelization Strategy
 
 **ReuseFactor = 1** forces full parallelism by allocating dedicated hardware resources for each operation.  
 This eliminates time-multiplexing and minimizes inference latency at the cost of increased FPGA resource usage.
 
 ---
 
-## 📊 Results
+## Results
 
 The hardware logic was validated against the floating-point software model using the **ECG5000 dataset**.
 
@@ -132,7 +132,7 @@ The hardware logic was validated against the floating-point software model using
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 - `hls_ecg_final_v2/` – Synthesized HLS C++ project  
 - `Project_Notebook.ipynb` – Training, quantization, and synthesis pipeline  
@@ -141,13 +141,13 @@ The hardware logic was validated against the floating-point software model using
 
 ---
 
-## 🚀 How to Reproduce
+## How to Reproduce
 
 ### 1. Clone the Repository
 ```
 git clone https://github.com/niteshg97/Low-Latency-Transformer-Inference-on-FPGAs-for-Anomaly-Detection-on-ECGs.git
 ```
-## 🧰 Environment Setup
+## Environment Setup
 
 Install the required dependencies to support legacy Keras parsing and FPGA synthesis:
 
@@ -156,7 +156,7 @@ Install the required dependencies to support legacy Keras parsing and FPGA synth
 - Open Project_Notebook.ipynb in Google Colab or Jupyter Notebook.
 - Make sure the ECG5000 dataset is available in the expected directory before execution.
 
-## 📜 References
+## References
 
 Core Research
 - Vaswani et al. – Attention Is All You Need, NeurIPS 2017.
