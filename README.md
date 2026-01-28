@@ -89,9 +89,7 @@ $$
 \tilde{x}_c = s_c \cdot x_c
 $$
 
-**Why this fits the Jiang et al. objective:**
-- **Latency:** Multiply and Add operations are fully parallelizable  
-- **Resources:** Eliminates the need for an $N \times N$ attention matrix  
+While prior work such as Jiang et al. focuses on optimizing Transformer self attention for FPGA deployment, this project explores a complementary direction: eliminating token-to-token attention entirely in favor of channel-wise excitation. This design sacrifices explicit temporal alignment in exchange for strictly linear complexity, deterministic latency, and improved suitability for real time FPGA inference.
 
 ---
 
