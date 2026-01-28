@@ -29,6 +29,10 @@ Addressing the computational bottleneck of standard Transformers in edge computi
 ## Theoretical Background
 
 ### 1. The Transformer Legacy (Vaswani et al.)
+
+While the original Transformer relies on token-to-token self-attention, this project adopts the attention principle dynamic, input dependent feature weighting without implementing full self-attention.
+
+
 The architecture draws inspiration from the seminal work *"Attention Is All You Need"* by Vaswani et al. (2017). The core innovation of the original Transformer was the **Self-Attention Mechanism**, which allows the model to weigh the importance of different time-steps in a sequence dynamically.
 
 Mathematically, the standard Scaled Dot-Product Attention is defined as:
