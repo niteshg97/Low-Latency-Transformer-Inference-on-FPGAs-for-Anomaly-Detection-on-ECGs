@@ -58,6 +58,8 @@ While powerful, the $O(N^2)$ complexity of standard attention is a bottleneck fo
 
 ## Implemented Architecture: Hardware-Efficient Attention
 
+This mechanism does not compute pairwise temporal attention, but instead performs global context aware channel recalibration.
+
 To adhere to the low-latency principles proposed by Jiang et al., this project implements a **Channel-Wise Attention (Squeeze-and-Excitation)** mechanism. This retains the Transformer's ability to "attend" to specific features but replaces heavy matrix multiplication with efficient element-wise operations suitable for FPGA DSP slices.
 
 ### Mathematical Formulation
