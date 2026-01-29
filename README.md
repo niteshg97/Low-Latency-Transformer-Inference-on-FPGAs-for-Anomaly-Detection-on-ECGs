@@ -47,8 +47,8 @@ Where:
 
 ---
 
-### 2. The Low-Latency Challenge (Jiang et al.)
-While powerful, the $O(N^2)$ complexity of standard attention is a bottleneck for real-time hardware. As highlighted in *"Low Latency Transformer Inference on FPGAs"* (Jiang et al.), deploying Transformers on edge devices requires:
+### 2. The Low-Latency Challenge
+While powerful, the $O(N^2)$ complexity of standard attention is a bottleneck for real-time hardware, deploying Transformers on edge devices requires:
 
 1. **Parallelism:** Unrolling loops to execute operations simultaneously rather than sequentially.  
 2. **Quantization:** Reducing 32-bit floats to lower-precision fixed-point integers to save logic gates.  
