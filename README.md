@@ -182,10 +182,7 @@ Physics Applications with hls4ml(2024).
 📧 niteshk.ug23.ee@nitp.ac.in  
 🌐 [LinkedIn Profile](https://www.linkedin.com/in/nitesh-kumar-68a698275)  
 
-
-
-
-  
+---
 Copyright (c) 2025 Nitesh Kumar
 
 
