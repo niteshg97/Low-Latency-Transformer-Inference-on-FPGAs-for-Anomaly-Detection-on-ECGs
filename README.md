@@ -25,7 +25,6 @@ Addressing the computational bottleneck of standard Transformers in edge computi
 ---
 
 
-
 ## Theoretical Background
 
 ### 1. The Transformer Legacy (Vaswani et al.)
