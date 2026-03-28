@@ -109,11 +109,7 @@ All weights and activations are converted from 32-bit floating point to **16-bit
 
 ---
 
-### 2. Parallelization Strategy
-To achieve low-latency inference, the **Latency Strategy** is applied to all layers:
 
-config['LayerName'][layer]['Strategy'] = 'Latency'
-config['LayerName'][layer]['ReuseFactor'] = 1 
 
 ## Parallelization Strategy
 
