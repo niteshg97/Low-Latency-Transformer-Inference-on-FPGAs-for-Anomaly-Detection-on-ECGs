@@ -14,7 +14,7 @@
 ![ECG](https://img.shields.io/badge/Application-ECG%20Anomaly%20Detection-green?style=for-the-badge)
 
 
-<img width="1000" height="890" alt="Anomaly_detection_ images-Picsart-AiImageEnhancer" src="https://github.com/user-attachments/assets/0203fa87-d702-432a-b117-d10b661b2754" />
+<img width="800" height="420" alt="Anomaly_detection_ images-Picsart-AiImageEnhancer" src="https://github.com/user-attachments/assets/0203fa87-d702-432a-b117-d10b661b2754" />
 
 ## Abstract
 
@@ -92,7 +92,7 @@ While prior work such as Jiang et al. focuses on optimizing Transformer self att
 
 ---
 
-<img width="800" height="800" alt="Anomaly_detection_ images-Picsart-AiImageEnhancer" src="https://github.com/user-attachments/assets/09f7285b-f281-4e4d-95b3-a797941bc207" />
+<img width="700" height="440" alt="Anomaly_detection_ images-Picsart-AiImageEnhancer" src="https://github.com/user-attachments/assets/09f7285b-f281-4e4d-95b3-a797941bc207" />
 
 ---
 
