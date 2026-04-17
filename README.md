@@ -92,7 +92,7 @@ While prior work such as Jiang et al. focuses on optimizing Transformer self att
 
 ---
 
-<img width="700" height="440" alt="Anomaly_detection_ images-Picsart-AiImageEnhancer" src="https://github.com/user-attachments/assets/09f7285b-f281-4e4d-95b3-a797941bc207" />
+<img width="760" height="440" alt="Anomaly_detection_ images-Picsart-AiImageEnhancer" src="https://github.com/user-attachments/assets/09f7285b-f281-4e4d-95b3-a797941bc207" />
 
 ---
 
